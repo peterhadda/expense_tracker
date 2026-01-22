@@ -44,30 +44,29 @@ Screenshots of the plots can be used as **CV / portfolio assets**.
 app/
 │
 ├── ml/ # Machine Learning logic
-│ ├── train.py
-│ ├── predict_and_advise.py
+│ ├── train.py # Train ML model for expense categorization
+│ ├── predict_and_advise.py # Predict category + generate spending advice
 │
 ├── models/ # Domain models
-│ └── transaction.py
+│ └── transaction.py # Transaction entity definition
 │
 ├── services/ # Business logic
-│ ├── manager.py
-│ ├── analysis.py
-│ └── plots.py
+│ ├── manager.py # Transaction management (CRUD)
+│ ├── analysis.py # Data analysis (totals, insights)
+│ └── plots.py # Data visualizations (charts)
 │
-├── storage/ # Data persistence
-│ ├── csv_store.py
-│ └── db_store.py
+├── storage/ # Data persistence layer
+│ ├── csv_store.py # CSV read/write operations
+│ └── db_store.py # SQLite database operations
 │
 ├── utils/ # Configuration & helpers
-│ └── config.py
+│ └── config.py # Centralized configuration
 │
 └── main.py # Application entry point
 │
 data/
-├── transactions.csv
-└── transactions.db
-
+├── transactions.csv # CSV data storage
+└── transactions.db # SQLite database
 
 ---
 
@@ -92,7 +91,7 @@ data/
 
 ```bash
 python app/main.py
-📌 Example Use Cases
+##📌 Example Use Cases
 Track personal expenses
 
 Analyze spending habits

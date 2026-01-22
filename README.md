@@ -40,7 +40,7 @@ Screenshots of the plots can be used as **CV / portfolio assets**.
 ---
 
 ## 🗂️ Project Structure
-
+```
 app/
 │
 ├── ml/ # Machine Learning logic

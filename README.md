@@ -91,6 +91,7 @@ data/
 
 ```bash
 python app/main.py
+---
 ##📌 Example Use Cases
 Track personal expenses
 
@@ -101,6 +102,7 @@ Visualize financial trends
 Automatically classify expenses
 
 Use as a portfolio project for data / ML roles
+---
 
 🎯 Why This Project?
 This project demonstrates:
@@ -112,7 +114,7 @@ Data analysis and visualization skills
 Practical machine learning integration
 
 Real-world problem solving
-
+---
 📈 Future Improvements
 Improve ML accuracy with more data
 

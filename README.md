@@ -67,7 +67,7 @@ app/
 data/
 ├── transactions.csv # CSV data storage
 └── transactions.db # SQLite database
-
+```
 ---
 
 ## 🛠️ Technologies Used

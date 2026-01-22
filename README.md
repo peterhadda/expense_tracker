@@ -91,6 +91,7 @@ data/
 
 ```bash
 python app/main.py
+```
 ---
 ##📌 Example Use Cases
 Track personal expenses
